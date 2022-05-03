@@ -1,0 +1,73 @@
+.nav .appName {
+  background-color: red;
+  margin: 0;
+  padding: 15px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.menuContainer {
+  margin: 0;
+  background-color: gray;
+  color: white;
+  padding-left: 25px;
+}
+
+.menuContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav .link-container ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+}
+
+.nav .link-container ul li:hover {
+  background-color: black;
+}
+
+.nav .link-container ul li:hover .dropDownList {
+  position: fixed;
+  display: block;
+}
+
+
+.menu .dropDownList {
+  display: none;
+}
+
+.dropDownList div {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.dropDownList div:hover {
+  background-color: gray;
+}
+
+.dropDownList div:hover a {
+  color: white;
+}
+
+.dropDownList a {
+  color: #749DBD;
+  text-decoration: none;
+}
+
+.dropDownList {
+  position: absolute;
+  background-color: #F5F5F5;
+  color: white;
+  margin-top: 10px;
+}
